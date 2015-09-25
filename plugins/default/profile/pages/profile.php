@@ -82,12 +82,12 @@ if (ossn_isLoggedIn()) {
 		
 <?php if ($set[0]->value == 'ADMIN'){ ?>
 <img id="tipsy-show" title="Administrator" style="cursor:pointer; margin-left: 10px;
-  margin-bottom: -5px;" src="<?php echo ossn_site_url("components/verified-account/images/verified-admin.png") ?>"/>
+  margin-bottom: -5px;" src="<?php echo ossn_site_url("components/verified-account/images/verified-admin.png") ?>" height="25" width="25"/>
 
 <?php } 
 elseif ($set[0]->value == 'true') { ?>
 <img title="Verified Account" id="tipsy-show" style="cursor:pointer; margin-left: 10px;
-  margin-bottom: -5px;" src="<?php echo ossn_site_url("components/verified-account/images/verified.png") ?>"/>
+  margin-bottom: -5px;" src="<?php echo ossn_site_url("components/verified-account/images/verified.png") ?>" height="25" width="25"/>
 
 <?php }
 else {
